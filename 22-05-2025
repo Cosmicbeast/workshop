@@ -1,0 +1,41 @@
+<!-- ! this tag is used to make the sample code-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>workshop development and deployment</title>
+</head>
+<body>
+    hello world!<br>
+    hello in abesit
+    welcome to &nbsp; abesit
+    <h1 align="centre"> heading</h1><hr width="50%">
+    <br>
+    <b> bold text </b>
+    <hr>
+    <hr align="left">
+    <i> this is for itallic</i>
+    <u>underline</u>
+    <p>paragraph</p>
+     <P> test of the live server</P>
+     <marquee behavior="alternate" direction="left" style="width: 100%;">
+    <marquee behavior="alternate" direction="up" style="height: 100px;">
+        Zigzag Text
+    </marquee>
+</marquee>
+</body>
+</html>
+
+<!-- today's topics covered are 
+  1 html basic format
+  2 use of liverserver extensions
+  3 use of br tag 
+  4 &nbsp this is used to make 1 space 
+  5 b tag for making the text bold 
+  6 p tag is used for paragraph
+  7 hr tag for horizontal line 
+  8 i is used for the itallic tag 
+  9 h1-h6 are for the heading tag
+  10 u for unnderrline
+  11 align to aligh the text
+  12 width for size -->

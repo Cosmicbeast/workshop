@@ -51,7 +51,8 @@ H<sub>2</sub>O<br>
     <li>this is a ordered list </li>
     <li>this is used to make the list with order</li>
 </ol>
-<ol type="A"><!--the type tag is used in ordered list to make different types of listing-->
+<ol type="A"><!--the type tag is used in ordered list to make different types of listing
+                there are few types of the listing "A,a,i(roman small),I(roman big),1"-->
     <li>this is a ordered list </li>
     <li>this is used to make the list with order</li>
 </ol>

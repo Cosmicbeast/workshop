@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Formatting using Inline CSS</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 950px;
+            margin: 20px auto;
+        }
+        .header {
+            background-color: #810100;
+            border:3px solid #5a0104;
+            padding: 10px 25px;
+        }
+        .header h1 {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .separator {
+            border: 0;
+            height: 0px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0));
+            margin: 20px 0;
+        }
+        .text-block {
+            padding: 25px;
+            line-height: 1.6;
+        }
+        .text-block p {
+            margin: 0;
+        }
+        .block-orange {
+            background-color: #ffa800;
+            color: #ffffff;
+            border: 3px solid #e17607;
+            font-size: 16px;
+        }
+        .block-yellow-dotted {
+            background-color:#ffed3b;
+            color: #ff0000;
+            border: 3px dotted #E48A2D;
+            border-radius: 25px;
+            font-family: monotype corsiva, blackadderITC , cursive;
+            font-style: italic;
+            font-size: 15px;
+        }
+        .block-light-yellow {
+            background-color: #f8f69f;
+            color: #0000ff;
+            border:1px soildcurve #F0E8C1;
+            border-radius: 25px 0px 25px 0px;
+            font-family: monotype corsiva, blackadderITC , cursive;
+            font-style: italic;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Basic Formatting using Inline CSS</h1>
+        </div>
+        <hr class="separator">
+        <div class="text-block block-orange">
+            <p>
+                On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+            </p>
+        </div>
+        <hr class="separator">
+        <div class="text-block block-yellow-dotted">
+            <p>
+                You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly.
+            </p>
+        </div>
+        <hr class="separator">
+        <div class="text-block block-light-yellow">
+            <p>
+                To change the overall look of your document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick Style gallery, use the Change Current Quick Style Set command. Both the Themes gallery and the Quick Styles gallery provide reset commands so that you can always restore the look of your document to the original contained in your current template. On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
